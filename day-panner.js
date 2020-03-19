@@ -38,7 +38,8 @@ function hourColorSet(){
   };
 };
 
-// When the save button is pressed, it will get the parent div ID and the value of the text area. Then it will save it to local storage under ID name
+// When the save button is pressed, it will get the parent div ID and the value of the text area. 
+// Then it will save it to local storage under the parent ID name.
 $(".saveBtn").on("click", function(){
 
   var parentID = $(this).closest("div").attr("id");
